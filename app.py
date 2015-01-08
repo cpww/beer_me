@@ -19,8 +19,8 @@ app.config.from_object(__name__)
 ############
 
 @app.route('/')
-def show_entries():
-    return '<h1>Hello World</h1>'
+def render_index():
+    return render_template('index.html')
 
 # requisite logic for launching from source
 if __name__ == '__main__':
