@@ -25,9 +25,11 @@ app.get('/', function(req, res, next) {
     console.log('routing to index');
     res.render('index');
     });
-//app.use('/users', users);
 
 // catch 404 and forward to error handler
+// This is due to the way express attemps to match a requested
+// path: since no other paths can match at this point, the app
+// will default to handling this function.
 app.use(function(req, res, next) {
     console.log('routing to NOT index');
     var err = new Error('Not Found');
