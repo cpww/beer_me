@@ -32,10 +32,10 @@ app.get('/', function(req, res, next) {
 app.post('/api/v1/beers', function(req, res, next) {
     // Construct the brewerydb endpoint to hit
     if (req.body.mock) {
-        res.send(JSON.stringify(mocks.one_beer));
+        res.send(JSON.stringify(mocks.oneBeer));
     }
     else {
-        var endpoint = 'http://api.brewerydb.com/v2/search?q=' + encodeURIComponent(req.body.beer) + '&key=' + secrets.bdb_key
+        var endpoint = 'http://api.brewerydb.com/v2/search?q=' + encodeURIComponent(req.body.beer) + '&key=' + secrets.bdbKey
 
         // Hit the endpoint
         request(endpoint, function (error, response, body) {
@@ -45,33 +45,33 @@ app.post('/api/v1/beers', function(req, res, next) {
                 // Create an array that filters the return data such that the last
                 // entry in the array will be the data entry that had the most words
                 // that matched the original queried beer
-                var match_words = req.body.beer.split(' ')
+                var matchWords = req.body.beer.split(' ')
                 var matches = 0;
-                var best_match_i = 0;
+                var bestMatchI = 0;
                 for (i = 0; i < data.length; i++) {
 
                     // Determine the number of words in the current datum that match
                     // words in the original beer search
-                    var cur_matches = data[i].name.split(' ').filter( function(word) {
-                        return match_words.indexOf(word) > -1;
+                    var curMatches = data[i].name.split(' ').filter( function(word) {
+                        return matchWords.indexOf(word) > -1;
                     }).length;
 
-                    if (cur_matches == match_words.length) {
+                    if (curMatches == matchWords.length) {
                         // All the words in the datum match all the words
                         // in the original beer request, go with it!
-                        best_match_i = i;
+                        bestMatchI = i;
                         break;
                     }
-                    else if (cur_matches > matches) {
+                    else if (curMatches > matches) {
                         // Let's hold onto this index, it may turn out
                         // to be the best match! Also, update matches.
-                        best_match_i = i;
-                        matches = cur_matches;
+                        bestMatchI = i;
+                        matches = curMatches;
                     }
                 }
 
-                // Return a JSON response of datum at best_match_i index
-                res.send(JSON.stringify(data[best_match_i]));
+                // Return a JSON response of datum at bestMatchI index
+                res.send(JSON.stringify(data[bestMatchI]));
             }
         })
     }
