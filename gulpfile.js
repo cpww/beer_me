@@ -42,5 +42,10 @@ gulp.task('styles', function() {
     .pipe(gulp.dest('./public/styles'))
 });
 
+gulp.task('watch', function(){
+  gulp.watch('./public/styles/*.scss', ['styles']);
+  gulp.watch('./public/scripts/author/**/*.js', ['scripts']);
+});
+
 // default task: handle assets, start server, watch & reload
-gulp.task('default', ['images', 'scripts', 'styles', 'server']);
+gulp.task('default', ['images', 'scripts', 'styles', 'server', 'watch']);
