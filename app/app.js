@@ -35,32 +35,43 @@ app.post('/api/v1/beers', function(req, res, next) {
         res.send(JSON.stringify(mocks.one_beer));
     }
     else {
-        endpoint = 'http://api.brewerydb.com/v2/search?q=' + encodeURIComponent(req.body.beer) + '&key=' + secrets.bdb_key
+        var endpoint = 'http://api.brewerydb.com/v2/search?q=' + encodeURIComponent(req.body.beer) + '&key=' + secrets.bdb_key
 
         // Hit the endpoint
         request(endpoint, function (error, response, body) {
             if (!error && response.statusCode == 200) {
                 var data = JSON.parse(body).data;
-                var matches = 0
 
                 // Create an array that filters the return data such that the last
                 // entry in the array will be the data entry that had the most words
                 // that matched the original queried beer
-                var qualifiers = data.filter( function(el) {
-                    var cur_matches = el.name.split(' ').filter( function(word) {
-                        return req.body.beer.indexOf(word) > -1;
-                    }).length;
-                    if (matches <= cur_matches) {
-                        matches = cur_matches;
-                        return true;
-                    }
-                    else {
-                        return false;
-                    }
-                });
+                var match_words = req.body.beer.split(' ')
+                var matches = 0;
+                var best_match_i = 0;
+                for (i = 0; i < data.length; i++) {
 
-                // Return a JSON response of the last entry in the qualifiers array
-                res.send(JSON.stringify(qualifiers[qualifiers.length-1]));
+                    // Determine the number of words in the current datum that match
+                    // words in the original beer search
+                    var cur_matches = data[i].name.split(' ').filter( function(word) {
+                        return match_words.indexOf(word) > -1;
+                    }).length;
+
+                    if (cur_matches == match_words.length) {
+                        // All the words in the datum match all the words
+                        // in the original beer request, go with it!
+                        best_match_i = i;
+                        break;
+                    }
+                    else if (cur_matches > matches) {
+                        // Let's hold onto this index, it may turn out
+                        // to be the best match! Also, update matches.
+                        best_match_i = i;
+                        matches = cur_matches;
+                    }
+                }
+
+                // Return a JSON response of datum at best_match_i index
+                res.send(JSON.stringify(data[best_match_i]));
             }
         })
     }
