@@ -1,3 +1,1 @@
-$(function(){
-  console.log('Whao!');
-});
+console.log('loaded');
