@@ -6,6 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var request = require('request');
 
+var debug = require('debug')('app4');
+
 var routes = require('./routes/index');
 var secrets = require('./secrets');
 var mocks = require('./mocks');
@@ -13,7 +15,8 @@ var users = require('./routes/users');
 
 var app = express();
 
-app.set('views', path.join(__dirname, 'views'));
+// view engine setup
+app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
@@ -22,12 +25,10 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '/../public')));
 
-app.get('/', function(req, res, next) {
-    console.log('routing to index');
-    res.render('index');
-    });
+app.use('/', routes);
+app.use('/users', users);
 
 app.post('/api/v1/beers', function(req, res, next) {
     // Construct the brewerydb endpoint to hit
@@ -67,14 +68,10 @@ app.post('/api/v1/beers', function(req, res, next) {
 });
 
 // catch 404 and forward to error handler
-// This is due to the way express attemps to match a requested
-// path: since no other paths can match at this point, the app
-// will default to handling this function.
 app.use(function(req, res, next) {
-    console.log('routing to NOT index');
-    var err = new Error('Not Found');
-    err.status = 404;
-    next(err);
+  var err = new Error('Not Found');
+  err.status = 404;
+  next(err);
 });
 
 // error handlers
@@ -82,24 +79,27 @@ app.use(function(req, res, next) {
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
-    app.use(function(err, req, res, next) {
-        res.status(err.status || 500);
-        res.render('error', {
-            message: err.message,
-            error: err
-        });
+  app.use(function(err, req, res, next) {
+    res.status(err.status || 500);
+    res.render('error', {
+      message: err.message,
+      error: err
     });
+  });
 }
 
 // production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-        message: err.message,
-        error: {}
-    });
+  res.status(err.status || 500);
+  res.render('error', {
+    message: err.message,
+    error: {}
+  });
 });
 
+app.set('port', process.env.PORT || 3000);
 
-module.exports = app;
+var server = app.listen(app.get('port'), function() {
+  debug('Express server listening on port ' + server.address().port);
+});
