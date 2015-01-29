@@ -23,7 +23,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../public')));
-//app.use(express.bodyParser()); need?
 
 app.get('/', function(req, res, next) {
     console.log('routing to index');
@@ -32,13 +31,12 @@ app.get('/', function(req, res, next) {
 
 app.post('/api/v1/beers', function(req, res, next) {
     // Construct the brewerydb endpoint to hit
-    endpoint = 'http://api.brewerydb.com/v2/search?q=' + encodeURIComponent(req.body.beer) + '&key=' + secrets.bdb_key
-    console.log(endpoint);
-
     if (req.body.mock) {
         res.send(JSON.stringify(mocks.one_beer));
     }
     else {
+        endpoint = 'http://api.brewerydb.com/v2/search?q=' + encodeURIComponent(req.body.beer) + '&key=' + secrets.bdb_key
+
         // Hit the endpoint
         request(endpoint, function (error, response, body) {
             if (!error && response.statusCode == 200) {
