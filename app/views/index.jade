@@ -4,8 +4,8 @@ block content
   div(ng-controller="AppCtrl")
     h1 Fuck you Rod!
     form
-      input(type='search' name='beer' placeholder="find a beer")
-      input(type="submit" nam='submit' ng-click='searchBeers("312")')
+      input(type='search' name='beer' placeholder="find a beer" ng-model="beer")
+      input(type="submit" nam='submit' ng-click='searchBeers(beer)')
 
     div(class="result")
 

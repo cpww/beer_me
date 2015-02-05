@@ -2,21 +2,24 @@ angular.module('app', [function() {
 	console.log('hello, world!');
 }])
 
-.controller('AppCtrl', ['$scope', function($scope, $http){
+.controller('AppCtrl', ['$scope', '$http', function($scope, $http){
   console.log('App controller');
 
 	var app = this;
 
-  app.searchBeers = function(beer) {
+  $scope.searchBeers = function(beer) {
   	console.log('my beer:' + beer);
-  	$http.post("http://localhost:3000/api/v1/beers", beer)
+  	// $http.post("/api/v1/beers", {'beer': beer}) // Real results
+    $http.post("/api/v1/beers", {'beer': beer, 'mock': true}) // Mock results
   		.success(function(data) {
-  			console.log(data);
-  		})
+        if (data) {
+          console.log('Data received:',data);
+        }
+  			else {
+          console.log('No data returned.');
+        }
+  		}).error(function(data){
+        console.log('Something fucked up.');
+      });
   }
-
-  // $scope.addBeer = function(beer) {
-  // 	console.log('my beer:' + beer);
-  // }
 }]);
-
