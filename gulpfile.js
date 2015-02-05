@@ -37,7 +37,6 @@ gulp.task('styles', function() {
       require: ['susy', 'breakpoint'],
       style: 'compressed'
     }))
-    .pipe(plugins.autoprefixer())
     .pipe(plugins.rename({suffix: '.min'}))
     .pipe(gulp.dest('./public/styles'))
 });
