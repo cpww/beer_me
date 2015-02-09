@@ -1,0 +1,23 @@
+// grays
+$color-white: #fafafa;
+$color-black: #333;
+$color-gray: #abb7b7;
+
+// colors
+$color-blue: #67809f;
+$color-green: #019875;
+$color-red: #96281b;
+$color-yellow: #f5d76e;
+
+// rhythm
+$unit: 1em;
+
+// boilerplate
+$font-size: $unit;
+$font-family: 'open sans', helvetica, arial, sans-serif;
+$line-height: 1.6;
+
+// grid
+$susy: (columns: 12);
+
+$break: $unit*50;

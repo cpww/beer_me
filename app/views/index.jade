@@ -1,9 +1,14 @@
 extends layout
 
 block content
-  h1 Fuck you Rod!
-  form
-    input(
-      type='text'
-      name='beer'
-    )
+  form(data-ng-submit="submit()")
+    input(type="search" name="beer" placeholder="What beer are you looking for?" data-ng-model="beer")
+    button(type="submit" name="submit")
+      i(class="fa fa-beer")
+
+  section(class="beer" data-ng-show=beer)
+    aside(class="beer-aside")
+      img(src="{{label}}" alt="{{name}}")
+    div(class="beer-main")
+      h1 {{name}}
+      p {{description}}
