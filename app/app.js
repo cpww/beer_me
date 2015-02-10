@@ -40,9 +40,8 @@ app.post('/api/v1/beers', function(req, res, next) {
 
         // Hit the endpoint
         request(endpoint, function (error, response, body) {
-            if (!error && response.statusCode == 200) {
-                var data = JSON.parse(body).data;
-
+            var data = JSON.parse(body).data;
+            if (!error && response.statusCode == 200 && data !== undefined) {
                 // Create an array that filters the return data such that the last
                 // entry in the array will be the data entry that had the most words
                 // that matched the original queried beer
