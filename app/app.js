@@ -143,7 +143,6 @@ app.post('/api/v1/beers', function(req, res, next) {
                         'untappd': parseUntappdResponse(beer, utResp)}
             res.send(JSON.stringify(resp));
         });
-
     }
 });
 
