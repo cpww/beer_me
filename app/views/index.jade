@@ -1,14 +1,14 @@
 extends layout
 
 block content
-  div(ng-controller="AppCtrl")
-    h1 Fuck you Rod!
-    form
-      input(type='search' name='beer' placeholder="find a beer")
-      input(type="submit" nam='submit' ng-click='searchBeers("312")')
+  form(data-ng-submit="submit()")
+    input(type="search" name="beer" placeholder="What beer are you looking for?" data-ng-model="beer")
+    button(type="submit" name="submit")
+      i(class="fa fa-beer")
 
-    div(class="result")
-
-
-
-
+  section(class="beer" data-ng-show=beer)
+    aside(class="beer-aside")
+      img(src="{{label}}" alt="{{name}}")
+    div(class="beer-main")
+      h1 {{name}}
+      p {{description}}
