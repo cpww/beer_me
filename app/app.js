@@ -48,6 +48,10 @@ function getResults(beer) {
 function parseBrewerydbResponse(beer, response) {
     var data = JSON.parse(response).data;
 
+    if (data === undefined) {
+        return {'searchedBeer': beer}
+    }
+
     // Create an array that filters the return data such that the last
     // entry in the array will be the data entry that had the most words
     // that matched the original queried beer
@@ -83,6 +87,10 @@ function parseBrewerydbResponse(beer, response) {
 function parseUntappdResponse(beer, response) {
     var data = JSON.parse(response).data;
 
+    if (data === undefined) {
+        return {'searchedBeer': beer}
+    }
+
     // Create an array that filters the return data such that the last
     // entry in the array will be the data entry that had the most words
     // that matched the original queried beer
@@ -117,11 +125,17 @@ function parseUntappdResponse(beer, response) {
 
 app.post('/api/v1/beers', function(req, res, next) {
     // Construct the brewerydb endpoint to hit
+    var beer = req.body.beer
     if (req.body.mock) {
-        res.send(JSON.stringify(mocks.oneBeer));
+        if (beer == 'no_beer') {
+            res.send(JSON.stringify(mocks.noBeer));
+        } else if (beer == 'no_image') {
+            res.send(JSON.stringify(mocks.noImage));
+        } else {
+            res.send(JSON.stringify(mocks.oneBeer));
+        }
     }
     else {
-        var beer = req.body.beer
         getResults(beer).then(function(responses) {
             var bdbResp = responses[0]
             var utResp = responses[1]
