@@ -15,8 +15,10 @@ angular.module('app', [ ])
       } else {
         console.log('No data received!');
       }
-    }).error(function(data) {
+    })
+    .error(function(data) {
       console.log('Something fucked!');
     });
   }
 }]);
+

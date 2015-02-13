@@ -1,0 +1,95 @@
+@import 'susy';
+@import 'breakpoint';
+
+@import 'vars';
+@import 'normalize';
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background: $color-white;
+  color: $color-black;
+  font-family: $font-family;
+  line-height: $line-height;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+form {
+  @include container;
+  background: $color-blue;
+  padding: $unit;
+
+  input[type='search'],
+  button[type='submit'] {
+    padding: $unit;
+  }
+
+  input[type='search'] {
+    @include span(9);
+    background: $color-blue-dark;
+    color: $color-white;
+  }
+
+  button[type='submit'] {
+    @include span(3 last);
+  }
+}
+
+input {
+  background: $color-white;
+  border: 0;
+  border-radius: 0;
+}
+
+// override normalize
+input[type='search'] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+button {
+  background: $color-green;
+  border: 0;
+  color: $color-white;
+}
+
+.beer {
+ @include container;
+}
+
+.beer-aside,
+.beer-main {
+  @include span(full);
+  padding: $unit;
+}
+
+.beer-aside {
+  @include breakpoint($break) {
+    @include span(3);
+  }
+}
+
+.beer-main {
+  @include breakpoint($break) {
+    @include span(9 last);
+  }
+}
