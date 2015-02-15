@@ -47,8 +47,11 @@ gulp.task('styles', function() {
 });
 
 gulp.task('watch', function(){
+  gulp.watch('./public/images/**/*', ['images']);
   gulp.watch('./public/styles/**/*.scss', ['styles']);
   gulp.watch('./public/scripts/author/**/*.js', ['scripts']);
+  plugins.livereload.listen();
+  gulp.watch(['./app/**', './public/**']).on('change', plugins.livereload.changed);
 });
 
 // default task: handle assets, start server, watch & reload

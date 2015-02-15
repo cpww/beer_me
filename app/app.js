@@ -36,7 +36,7 @@ function getResults(beer) {
     var untappdEndpoint = 'http://api.brewerydb.com/v2/search?q=' + encodeURIComponent(beer) + '&key=' + secrets.bdbKey
     return Q.all([Q.nfcall(request, brewerydbEndpoint),
                   Q.nfcall(request, untappdEndpoint)])
-    .spread(function(brewerydbRes, untappdRes) {        
+    .spread(function(brewerydbRes, untappdRes) {
         return [brewerydbRes[1], untappdRes[1]];  // return the response body
     })
     .fail(function(err) {

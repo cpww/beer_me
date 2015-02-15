@@ -1,4 +1,6 @@
-angular.module('app', [ ])
+angular.module('app', [function(){
+  console.log('Beer up!');
+}])
 
 .controller('AppCtrl', ['$scope', '$http', function($scope, $http) {
   $scope.submit = function(beer) {
@@ -9,9 +11,9 @@ angular.module('app', [ ])
     .success(function(data) {
       if (data) {
         console.log('Data recieved: ', data);
-        $scope.name = data.name;
-        $scope.description = data.description;
-        $scope.label = data.labels.medium;
+        $scope.name = data.breweryDB.name;
+        $scope.description = data.breweryDB.description;
+        $scope.label = data.breweryDB.labels.medium;
       } else {
         console.log('No data received!');
       }
