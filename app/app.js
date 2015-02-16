@@ -10,7 +10,7 @@ var Q = require('q');
 var debug = require('debug')('app4');
 
 var routes = require('./routes/index');
-var secrets = require('./secrets');
+var secrets = require('./secrets_example');
 var mocks = require('./mocks');
 var users = require('./routes/users');
 
@@ -21,7 +21,7 @@ app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
-//app.use(favicon(__dirname + '/public/favicon.ico'));
+app.use(favicon('./public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));

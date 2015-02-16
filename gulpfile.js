@@ -27,6 +27,7 @@ gulp.task('scripts', function() {
     .pipe(plugins.plumber())
     .pipe(plugins.concat('all.js'))
     .pipe(plugins.uglify())
+    .pipe(plugins.rename({suffix: '.min'}))
     .pipe(gulp.dest('./public/scripts/'))
 });
 
@@ -42,6 +43,7 @@ gulp.task('styles', function() {
     style: 'compressed'
   })
     .pipe(plugins.postcss(processors))
+    .pipe(plugins.rename({suffix: '.min'}))
     .pipe(plugins.sourcemaps.write('.'))
     .pipe(gulp.dest('./public/styles/'))
 });
