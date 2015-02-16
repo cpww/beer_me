@@ -1,0 +1,32 @@
+form {
+  @include container;
+  background: $color-blue;
+  padding: $unit;
+
+  input[type='search'],
+  button[type='submit'] {
+    padding: $unit;
+  }
+
+  input[type='search'] {
+    @include span(9);
+    background: $color-blue-dark;
+    color: $color-white;
+  }
+
+  button[type='submit'] {
+    @include span(3 last);
+  }
+}
+
+input {
+  background: $color-white;
+  border: 0;
+  border-radius: 0;
+}
+
+// override normalize
+input[type='search'] {
+  -webkit-appearance: textfield;
+  box-sizing: border-box;
+}

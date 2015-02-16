@@ -4,7 +4,8 @@ $color-black: #333;
 $color-gray: #abb7b7;
 
 // colors
-$color-blue: #67809f;
+$color-blue: #34495e;
+$color-blue-dark: darken(#34495e, 5%);
 $color-green: #019875;
 $color-red: #96281b;
 $color-yellow: #f5d76e;
@@ -19,5 +20,4 @@ $line-height: 1.6;
 
 // grid
 $susy: (columns: 12);
-
 $break: $unit*50;

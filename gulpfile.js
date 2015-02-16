@@ -1,6 +1,8 @@
 var gulp = require('gulp'),
 plugins  = require('gulp-load-plugins')();
 
+var autoprefixer = require('autoprefixer-core');
+
 // start server via express
 gulp.task('server', function() {
   var app = require('./app/app');
@@ -12,9 +14,9 @@ gulp.task('images', function() {
   return gulp.src('./public/images/*')
     .pipe(plugins.plumber())
     .pipe(plugins.cache(plugins.imagemin({
-      optimizationLevel: 5,
-      progressive: true,
       interlaced: true,
+      optimizationLevel: 5,
+      progressive: true
     })))
     .pipe(gulp.dest('./assets/images'))
 });
@@ -26,24 +28,32 @@ gulp.task('scripts', function() {
     .pipe(plugins.concat('all.js'))
     .pipe(plugins.uglify())
     .pipe(plugins.rename({suffix: '.min'}))
-    .pipe(gulp.dest('./public/scripts'))
+    .pipe(gulp.dest('./public/scripts/'))
 });
 
-// compile and minitfy sass
+// compile and minify sass
 gulp.task('styles', function() {
-  return gulp.src('./public/styles/site.scss')
-    .pipe(plugins.plumber())
-    .pipe(plugins.rubySass({
-      require: ['susy', 'breakpoint'],
-      style: 'compressed'
-    }))
+  var processors = [
+    autoprefixer(['last 6 version'])
+  ];
+  return plugins.rubySass(
+  './public/styles/', {
+    require: ['breakpoint', 'susy'],
+    sourcemap: true,
+    style: 'compressed'
+  })
+    .pipe(plugins.postcss(processors))
     .pipe(plugins.rename({suffix: '.min'}))
-    .pipe(gulp.dest('./public/styles'))
+    .pipe(plugins.sourcemaps.write('.'))
+    .pipe(gulp.dest('./public/styles/'))
 });
 
 gulp.task('watch', function(){
-  gulp.watch('./public/styles/*.scss', ['styles']);
+  gulp.watch('./public/images/**/*', ['images']);
+  gulp.watch('./public/styles/**/*.scss', ['styles']);
   gulp.watch('./public/scripts/author/**/*.js', ['scripts']);
+  plugins.livereload.listen();
+  gulp.watch(['./app/**', './public/**']).on('change', plugins.livereload.changed);
 });
 
 // default task: handle assets, start server, watch & reload

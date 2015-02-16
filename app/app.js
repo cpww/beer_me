@@ -10,7 +10,7 @@ var Q = require('q');
 var debug = require('debug')('app4');
 
 var routes = require('./routes/index');
-var secrets = require('./secrets');
+var secrets = require('./secrets_example');
 var mocks = require('./mocks');
 var users = require('./routes/users');
 
@@ -21,7 +21,7 @@ app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
-//app.use(favicon(__dirname + '/public/favicon.ico'));
+app.use(favicon('./public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -36,7 +36,7 @@ function getResults(beer) {
     var untappdEndpoint = 'http://api.brewerydb.com/v2/search?q=' + encodeURIComponent(beer) + '&key=' + secrets.bdbKey
     return Q.all([Q.nfcall(request, brewerydbEndpoint),
                   Q.nfcall(request, untappdEndpoint)])
-    .spread(function(brewerydbRes, untappdRes) {        
+    .spread(function(brewerydbRes, untappdRes) {
         return [brewerydbRes[1], untappdRes[1]];  // return the response body
     })
     .fail(function(err) {
