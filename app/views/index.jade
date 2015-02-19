@@ -8,7 +8,7 @@ block content
 
   section.beer(data-ng-show=beer)
     aside.beer-aside
-      img(src="{{label}}" alt="{{name}}")
+      img(ng-src="{{label}}" alt="{{name}}")
     div.beer-main
       h1 {{name}}
       p {{description}}
