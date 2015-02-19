@@ -4,11 +4,11 @@ block content
   form(data-ng-submit="submit()")
     input(type="search" name="beer" placeholder="What beer are you looking for?" data-ng-model="beer")
     button(type="submit" name="submit")
-      i(class="fa fa-beer")
+      i.fa.fa-beer
 
-  section(class="beer" data-ng-show=beer)
-    aside(class="beer-aside")
+  section.beer(data-ng-show=beer)
+    aside.beer-aside
       img(src="{{label}}" alt="{{name}}")
-    div(class="beer-main")
+    div.beer-main
       h1 {{name}}
       p {{description}}

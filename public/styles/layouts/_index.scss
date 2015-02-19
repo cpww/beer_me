@@ -1,0 +1,21 @@
+.beer {
+ @include container;
+}
+
+.beer-aside,
+.beer-main {
+  @include span(full);
+  padding: $unit;
+}
+
+.beer-aside {
+  @include breakpoint($break) {
+    @include span(3);
+  }
+}
+
+.beer-main {
+  @include breakpoint($break) {
+    @include span(9 last);
+  }
+}

@@ -1,0 +1,26 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  transition: all 3s;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background: $color-white;
+  color: $color-black;
+  font-family: $font-family;
+  line-height: $line-height;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: all 3s;
+}
+
+img {
+  max-width: 100%;
+}
