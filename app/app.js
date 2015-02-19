@@ -10,7 +10,7 @@ var Q = require('q');
 var debug = require('debug')('app4');
 
 var routes = require('./routes/index');
-var secrets = require('./secrets_example');
+var secrets = require('./secrets');
 var mocks = require('./mocks');
 var users = require('./routes/users');
 
