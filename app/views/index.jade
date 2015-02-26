@@ -1,14 +1,14 @@
 extends layout
 
 block content
-  form(data-ng-submit="submit()")
+  form(data-ng-submit="submit(beer)")
     input(type="search" name="beer" placeholder="What beer are you looking for?" data-ng-model="beer")
     button(type="submit" name="submit")
       i.fa.fa-beer
 
   section.beer(data-ng-show=beer)
     aside.beer-aside
-      img(src="{{label}}" alt="{{name}}")
+      img(ng-src="{{label}}" alt="{{name}}")
     div.beer-main
       h1 {{name}}
       p {{description}}
