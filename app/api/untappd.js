@@ -9,10 +9,13 @@
 
 
 
-var parseResp = function(beer, response) {
-    console.log('parseUtd');
+var utdApi = {
+	'parseResp':
+		function(beer, response) {
 
-    return 'Need to finish untappd API';
+			// Todo
+		  return response;
+		}
 }
 
-module.exports = parseResp;
+module.exports = utdApi;
