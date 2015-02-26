@@ -42,6 +42,10 @@ gulp.task('styles', function() {
     sourcemap: true,
     style: 'compressed'
   })
+  .on("error", plugins.notify.onError({
+    message: "Error: <%= error.message %>",
+    title: "Error running something"
+  }))
     .pipe(plugins.postcss(processors))
     .pipe(plugins.rename({suffix: '.min'}))
     .pipe(plugins.sourcemaps.write('.'))

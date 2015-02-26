@@ -4,7 +4,7 @@ GEM
     breakpoint (2.5.0)
       sass (~> 3.3)
       sassy-maps (< 1.0.0)
-    sass (3.4.10)
+    sass (3.4.12)
     sassy-maps (0.4.0)
       sass (~> 3.3)
     susy (2.2.2)
