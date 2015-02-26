@@ -1,3 +1,4 @@
+// Import Libraries
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -7,12 +8,18 @@ var bodyParser = require('body-parser');
 var request = require('request');
 var Q = require('q');
 
+// Debug
 var debug = require('debug')('app4');
 
+// Import PWW Modules
 var routes = require('./routes/index');
 var secrets = require('./secrets');
-var mocks = require('./mocks');
 var users = require('./routes/users');
+var bdbApi = require('./api/brewerydb');
+var utdApi = require('./api/untappd');
+// Mock json files
+var brewdbMock = require('./mocks/brewdbMock.json');
+var untappdMock = require('./mocks/untappdMock.json');
 
 var app = express();
 
