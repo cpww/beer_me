@@ -15,8 +15,14 @@ var debug = require('debug')('app4');
 var routes = require('./routes/index');
 var secrets = require('./secrets');
 var users = require('./routes/users');
-var bdbApi = require('./api/brewerydb');
-var utdApi = require('./api/untappd');
+/*
+    * WIP
+    * Need to make each API handling modular
+    * as fuck
+*/
+// var bdbApi = require('./api/brewerydb');
+// var utdApi = require('./api/untappd');
+
 // Mock json files
 var brewdbMock = require('./mocks/brewdbMock.json');
 var untappdMock = require('./mocks/untappdMock.json');
@@ -135,11 +141,17 @@ app.post('/api/v1/beers', function(req, res, next) {
     var beer = req.body.beer
     if (req.body.mock) {
         if (beer == 'no_beer') {
-            res.send(JSON.stringify(mocks.noBeer));
+            var resp = {'breweryDB': brewdbMock.noBeer,
+                        'untappd': untappdMock.noBeer}
+            res.send(JSON.stringify(resp));
         } else if (beer == 'no_image') {
-            res.send(JSON.stringify(mocks.noImage));
+            var resp = {'breweryDB': brewdbMock.noImage,
+                        'untappd': untappdMock.noImage}
+            res.send(JSON.stringify(resp));
         } else {
-            res.send(JSON.stringify(mocks.oneBeer));
+            var resp = {'breweryDB': brewdbMock.oneBeer,
+                        'untappd': untappdMock.oneBeer}
+            res.send(JSON.stringify(resp));
         }
     }
     else {
