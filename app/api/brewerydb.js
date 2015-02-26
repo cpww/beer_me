@@ -1,6 +1,5 @@
 var bdbApi = {
     'parseResp': function(beer, response) {
-        console.log('dada');
         var data = JSON.parse(response).data;
 
         if (data === undefined) {

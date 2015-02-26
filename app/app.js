@@ -52,7 +52,6 @@ function getResults(beer) {
     return Q.all([Q.nfcall(request, brewerydbEndpoint),
                   Q.nfcall(request, untappdEndpoint)])
     .spread(function(brewerydbRes, untappdRes) {
-        console.log('spread');
         return [brewerydbRes[1], untappdRes[1]];  // return the response body
     })
     .fail(function(err) {
@@ -67,28 +66,24 @@ app.post('/api/v1/beers', function(req, res, next) {
     if (req.body.mock) {
         if (beer == 'no_beer') {
             var resp = {'breweryDB': brewdbMock.noBeer,
-                        'untappd': untappdMock.noBeer}
+                        'untappd': untappdMock}
             res.send(JSON.stringify(resp));
         } else if (beer == 'no_image') {
             var resp = {'breweryDB': brewdbMock.noImage,
-                        'untappd': untappdMock.noImage}
+                        'untappd': untappdMock}
             res.send(JSON.stringify(resp));
         } else {
             var resp = {'breweryDB': brewdbMock.oneBeer,
-                        'untappd': untappdMock.oneBeer}
+                        'untappd': untappdMock}
             res.send(JSON.stringify(resp));
         }
     }
     else {
         getResults(beer).then(function(responses) {
-            console.log('not mock - responses');
-            // debugger;
-            debug(responses);
             var bdbResp = responses[0]
             var utResp = responses[1]
             var resp = {'breweryDB': bdbApi.parseResp(beer, bdbResp),
                         'untappd': utdApi.parseResp(beer, utResp)}
-            console.log('resp done! =-]');
             res.send(JSON.stringify(resp));
         });
     }
