@@ -1,4 +1,4 @@
-var parseUntappd function(beer, response) {
+var parseResp = function(beer, response) {
     var data = JSON.parse(response).data;
 
     if (data === undefined) {
@@ -37,4 +37,4 @@ var parseUntappd function(beer, response) {
     return data[bestMatchI];
 }
 
-module.exports = parseUntappd;
+module.exports = parseResp;
