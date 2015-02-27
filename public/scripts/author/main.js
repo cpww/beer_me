@@ -7,7 +7,7 @@ angular.module('app', [function(){
     var dev = {'beer': beer, 'mock': true},
     prod    = {'beer': beer, 'mock': false};
 
-    $http.post('/api/v1/beers/', dev)
+    $http.post('/api/v1/beers/', prod)
     .success(function(data) {
       if (data) {
         console.log('Data recieved: ', data);
@@ -34,3 +34,4 @@ angular.module('app', [function(){
   }
 }]);
 
+console.log('dasds');
