@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "code": 200,
+    "response_time": {
+      "time": 0.036,
+      "measure": "seconds"
+    },
+    "init_time": {
+      "time": 0.004,
+      "measure": "seconds"
+    }
+  },
+  "notifications": [
+
+  ],
+  "response": {
+    "message": "",
+    "brewery_id": false,
+    "search_type": "",
+    "type_id": 0,
+    "search_version": 3,
+    "found": 1,
+    "offset": 0,
+    "limit": 25,
+    "term": "312 urban wheat",
+    "parsed_term": "312* AND urban* AND wheat*",
+    "beers": {
+      "count": 1,
+      "items": [
+        {
+          "checkin_count": 201678,
+          "have_had": false,
+          "your_count": 0,
+          "beer": {
+            "bid": 5925,
+            "beer_name": "312 Urban Wheat Ale",
+            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_983d3_sm.jpeg",
+            "beer_abv": 4.2,
+            "beer_ibu": 18,
+            "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312\u00e2\u20ac\u2122s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+            "created_at": "Thu, 30 Sep 2010 08:01:14 +0000",
+            "beer_style": "American Pale Wheat Ale",
+            "auth_rating": 0,
+            "wish_list": false,
+            "in_production": 1
+          },
+          "brewery": {
+            "brewery_id": 2898,
+            "brewery_name": "Goose Island Beer Co.",
+            "brewery_slug": "goose-island-beer-co",
+            "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+            "country_name": "United States",
+            "contact": {
+              "twitter": "GooseIsland",
+              "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+              "instagram": "gooseislandbeer",
+              "url": "http:\/\/www.gooseisland.com\/"
+            },
+            "location": {
+              "brewery_city": "Chicago",
+              "brewery_state": "IL",
+              "lat": 41.8871,
+              "lng": -87.6721
+            },
+            "brewery_active": 1
+          }
+        }
+      ]
+    },
+    "homebrew": {
+      "count": 0,
+      "items": [
+
+      ]
+    },
+    "breweries": {
+      "items": [
+
+      ],
+      "count": 0
+    }
+  }
+}
