@@ -10,7 +10,7 @@ var search = {
 
             // Determine the number of words in the current datum that match
             // words in the original beer search
-            var curMatches = data[i].name.split(' ').filter( function(word) {
+            var curMatches = data[i].split(' ').filter( function(word) {
                 return matchWords.indexOf(word) > -1;
             }).length;
 
@@ -28,7 +28,7 @@ var search = {
             }
         }
 
-        return data[bestMatchI];
+        return bestMatchI;
     }
 }
 

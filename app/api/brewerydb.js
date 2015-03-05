@@ -8,8 +8,14 @@ var bdbApi = {
             return {'searchedBeer': beer}
         }
 
+        var potentialMatches = [];
+        data.forEach(function(elem, idx) {
+            potentialMatches[idx] = elem.name || 'N/A';
+        });
+
+        var bestMatchIndex = search.searchAlgo(beer, potentialMatches);
         // Return a JSON response of datum at bestMatchI index
-        return search.searchAlgo(beer, data);
+        return data[bestMatchIndex];
     }
 }
 
