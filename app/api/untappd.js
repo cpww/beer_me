@@ -32,19 +32,20 @@ var utdApi = {
 
             // New call for venue_info using matchedBeerId
             // /v4/beer/info/BID
-            var untappdInfoEndpoint = 'https://api.untappd.com/v4/beer/info?client_id=' + secrets.utdIdKey + '&client_secret=' + secrets.utdSecretKey + '&bid=' + matchedBeerId;
-            debugger;
-            return untappdInfoEndpoint;
-            console.log(untappdInfoEndpoint);
-            // request(untappdInfoEndpoint, function (error, response, body) {
-            //   if (!error && response.statusCode == 200) {
-            //     debugger;
-            //     // Get the long/lat of the venue
-            //   } else if (error) {
-            //     console.log(error);
-            //     return 'Error with Untappd BID endpoint';
-            //   }
-            // });
+            var untappdInfoEndpoint = 'https://api.untappd.com/v4/beer/info/' + matchedBeerId + '?client_id=' + secrets.utdIdKey + '&client_secret=' + secrets.utdSecretKey;
+            return 'Not done!';
+            // WIP
+            request(untappdInfoEndpoint, function (error, response, body) {
+              if (!error && response.statusCode == 200) {
+                var bidData = JSON.parse(body);
+                // JSON.parse(body).response.beer.checkins.items[0].venue.location
+                // debugger;
+                // Get the long/lat of the venue
+              } else if (error) {
+                console.log(error);
+                return 'Error with Untappd BID endpoint';
+              }
+            });
 
             return data.response.beers.items[matchedBeerIndex];
 		}
