@@ -10,6 +10,10 @@ var Q = require('q');
 
 var app = express();
 
+// Add __base to global object to share /node_modules
+// in lower directories ex: require(__base + 'path/to/module');
+global.__base = __dirname + '/';
+
 // Debug
 var debug = require('debug')('app4');
 
