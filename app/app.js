@@ -87,7 +87,11 @@ app.post('/api/v1/beers', function(req, res, next) {
             var bdbResp = responses[0]
             var utResp = responses[1]
             var resp = {'breweryDB': bdbApi.parseResp(beer, bdbResp),
-                        'untappd': utdApi.parseResp(beer, utResp)}
+                        'untappd': utdApi.parseResp(beer, utResp)};
+            // I'm pretty fucking sure utdApi.parseResp()
+            // Isn't resolving before fucking res.send()
+            // Asyncing right up my ass
+            debugger;
             res.send(JSON.stringify(resp));
         });
     }
