@@ -1,5 +1,7 @@
 var search = {
-    'searchAlgo': function(beer, data) {
+    // Takes beer(string) and data(array of strings)
+    // Finds and returns index of the closest match data
+    'searchBeer': function(beer, data) {
         // Create an array that filters the return data such that the last
         // entry in the array will be the data entry that had the most words
         // that matched the original queried beer
@@ -29,6 +31,24 @@ var search = {
         }
 
         return bestMatchI;
+    },
+
+    // Takes user(array with 2 numbers) and options array of
+    // multiple arrays that take two numbers
+    // Returns array that is closet to the user's coordinates
+    'searchLocation': function(user, options) {
+        var currentClosest;
+        var currentClosestIndex;
+
+        options.forEach(function(elem, idx) {
+            var latDiff = Math.abs(user[0]-elem[0]);
+            var longDiff = Math.abs(user[1]-elem[1]);
+            if (latDiff+longDiff < currentClosest || typeof currentClosest === 'undefined') {
+                currentClosest = latDiff+longDiff;
+                currentClosestIndex = idx;
+            }
+        });
+        return {'coords': options[currentClosestIndex], 'index': currentClosestIndex};
     }
 }
 

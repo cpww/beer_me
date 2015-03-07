@@ -1,4 +1,4 @@
-var search = require('./searchAlgo');
+var search = require('./searchAlgos');
 
 var bdbApi = {
     'parseResp': function(beer, response) {
@@ -13,7 +13,7 @@ var bdbApi = {
             potentialMatches[idx] = elem.name || 'N/A';
         });
 
-        var bestMatchIndex = search.searchAlgo(beer, potentialMatches);
+        var bestMatchIndex = search.searchBeer(beer, potentialMatches);
         // Return a JSON response of datum at bestMatchI index
         return data[bestMatchIndex];
     }
