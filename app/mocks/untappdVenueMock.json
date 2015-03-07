@@ -1,0 +1,2816 @@
+{
+    "meta": {
+        "code": 200,
+        "response_time": {
+            "time": 0.283,
+            "measure": "seconds"
+        },
+        "init_time": {
+            "time": 0.005,
+            "measure": "seconds"
+        }
+    },
+    "notifications": [],
+    "response": {
+        "beer": {
+            "bid": 5925,
+            "beer_name": "312 Urban Wheat Ale",
+            "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+            "beer_abv": 4.2,
+            "beer_ibu": 18,
+            "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+            "beer_style": "American Pale Wheat Ale",
+            "is_in_production": 1,
+            "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+            "is_homebrew": 0,
+            "created_at": "Thu, 30 Sep 2010 08:01:14 +0000",
+            "rating_count": 109494,
+            "rating_score": 3.42636,
+            "stats": {
+                "total_count": 204965,
+                "monthly_count": 5691,
+                "total_user_count": 125931,
+                "user_count": 0
+            },
+            "brewery": {
+                "brewery_id": 2898,
+                "brewery_name": "Goose Island Beer Co.",
+                "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                "country_name": "United States",
+                "contact": {
+                    "twitter": "GooseIsland",
+                    "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                    "url": "http:\/\/www.gooseisland.com\/"
+                },
+                "location": {
+                    "brewery_city": "Chicago",
+                    "brewery_state": "IL",
+                    "lat": 41.8871,
+                    "lng": -87.6721
+                }
+            },
+            "auth_rating": 0,
+            "wish_list": false,
+            "media": {
+                "count": 10,
+                "items": [{
+                    "photo_id": 31985906,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ea7ff20ff482cb8b658ddbf5135831a7_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ea7ff20ff482cb8b658ddbf5135831a7_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ea7ff20ff482cb8b658ddbf5135831a7_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ea7ff20ff482cb8b658ddbf5135831a7_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 21:20:03 +0000",
+                    "checkin_id": 160415682,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 578181,
+                        "user_name": "Pase",
+                        "first_name": "El",
+                        "last_name": "P",
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/61ed2cc87b68c3dc56f31e2a8f72dedb_100x100.jpg",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [
+                        []
+                    ]
+                }, {
+                    "photo_id": 31984900,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/c3a0c2c2bbd3bbf0b181c563bb60438e_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/c3a0c2c2bbd3bbf0b181c563bb60438e_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/c3a0c2c2bbd3bbf0b181c563bb60438e_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/c3a0c2c2bbd3bbf0b181c563bb60438e_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 21:11:10 +0000",
+                    "checkin_id": 160412797,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 387588,
+                        "user_name": "Kerilynn683",
+                        "first_name": "Keri",
+                        "last_name": "W",
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/64ed7faf3e0112f829c31310f15e5b30_100x100.jpg",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [{
+                        "venue_id": 15382,
+                        "venue_name": "Emil's Tavern on Center",
+                        "primary_category": "Food",
+                        "parent_category_id": "4d4b7105d754a06374d81259",
+                        "categories": {
+                            "count": 3,
+                            "items": [{
+                                "category_name": "American Restaurant",
+                                "category_id": "4bf58dd8d48988d14e941735",
+                                "is_primary": true
+                            }, {
+                                "category_name": "Pizza Place",
+                                "category_id": "4bf58dd8d48988d1ca941735",
+                                "is_primary": false
+                            }, {
+                                "category_name": "Restaurant",
+                                "category_id": "4bf58dd8d48988d1c4941735",
+                                "is_primary": false
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "161 Center St",
+                            "venue_city": "Grayslake",
+                            "venue_state": "IL",
+                            "lat": 42.3443,
+                            "lng": -88.0408
+                        },
+                        "contact": {
+                            "twitter": "",
+                            "venue_url": "http:\/\/www.emilsonline.com"
+                        },
+                        "private_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4b75e386f964a520532c2ee3",
+                            "foursquare_url": "http:\/\/4sq.com\/axrsaI"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_88.png"
+                        }
+                    }]
+                }, {
+                    "photo_id": 31981333,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/55f9b57de920a98cfc0ee29cb138e9d8_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/55f9b57de920a98cfc0ee29cb138e9d8_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/55f9b57de920a98cfc0ee29cb138e9d8_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/55f9b57de920a98cfc0ee29cb138e9d8_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 20:40:09 +0000",
+                    "checkin_id": 160403235,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 1218584,
+                        "user_name": "BrewIvyCarter",
+                        "first_name": "Caitlin",
+                        "last_name": "D",
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/e5b58932cf7c2ff6a0f22f4441b7a3a4_100x100.jpg",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [{
+                        "venue_id": 5389,
+                        "venue_name": "Bob's Bar",
+                        "primary_category": "Nightlife Spot",
+                        "parent_category_id": "4d4b7105d754a06376d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Bar",
+                                "category_id": "4bf58dd8d48988d116941735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "4961 N High St",
+                            "venue_city": "Columbus",
+                            "venue_state": "OH",
+                            "lat": 40.0635,
+                            "lng": -83.0195
+                        },
+                        "contact": {
+                            "twitter": "@bobsbarcbus",
+                            "venue_url": "http:\/\/bobsbar.com"
+                        },
+                        "private_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4b130b08f964a520299323e3",
+                            "foursquare_url": "http:\/\/4sq.com\/6wXtOh"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                        }
+                    }]
+                }, {
+                    "photo_id": 31981194,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/b842dcb86652ab68f7a9642131827448_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/b842dcb86652ab68f7a9642131827448_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/b842dcb86652ab68f7a9642131827448_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/b842dcb86652ab68f7a9642131827448_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 20:38:56 +0000",
+                    "checkin_id": 160402840,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 1554768,
+                        "user_name": "Squibz1985",
+                        "first_name": "Dan",
+                        "last_name": "W",
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/63d0e009c8e87447f24d472fcb3498bc_100x100.jpg",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [{
+                        "venue_id": 235615,
+                        "venue_name": "Crown & Anchor",
+                        "primary_category": "Nightlife Spot",
+                        "parent_category_id": "4d4b7105d754a06376d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Pub",
+                                "category_id": "4bf58dd8d48988d11b941735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "246 Brixton Rd",
+                            "venue_city": "Lambeth",
+                            "venue_state": "Greater London",
+                            "lat": 51.4714,
+                            "lng": -0.112782
+                        },
+                        "contact": {
+                            "twitter": "@crownanchorsw9",
+                            "venue_url": "http:\/\/www.crownandanchorbrixton.co.uk"
+                        },
+                        "private_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4cf93e594464b60c5c0f65f8",
+                            "foursquare_url": "http:\/\/4sq.com\/hBjCxH"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                        }
+                    }]
+                }, {
+                    "photo_id": 31980904,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/f9281efddc8d4fe07893979693d0b5c1_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/f9281efddc8d4fe07893979693d0b5c1_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/f9281efddc8d4fe07893979693d0b5c1_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/f9281efddc8d4fe07893979693d0b5c1_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 20:36:29 +0000",
+                    "checkin_id": 160402053,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 1554735,
+                        "user_name": "dazwelch",
+                        "first_name": "Darren",
+                        "last_name": "W",
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/b6bed4f497b60b0a25fc97065f03ca4d_100x100.jpg",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [{
+                        "venue_id": 235615,
+                        "venue_name": "Crown & Anchor",
+                        "primary_category": "Nightlife Spot",
+                        "parent_category_id": "4d4b7105d754a06376d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Pub",
+                                "category_id": "4bf58dd8d48988d11b941735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "246 Brixton Rd",
+                            "venue_city": "Lambeth",
+                            "venue_state": "Greater London",
+                            "lat": 51.4714,
+                            "lng": -0.112782
+                        },
+                        "contact": {
+                            "twitter": "@crownanchorsw9",
+                            "venue_url": "http:\/\/www.crownandanchorbrixton.co.uk"
+                        },
+                        "private_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4cf93e594464b60c5c0f65f8",
+                            "foursquare_url": "http:\/\/4sq.com\/hBjCxH"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                        }
+                    }]
+                }, {
+                    "photo_id": 31979062,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/bf8e5ea3f649d2da47c7e9fa0625ebc6_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/bf8e5ea3f649d2da47c7e9fa0625ebc6_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/bf8e5ea3f649d2da47c7e9fa0625ebc6_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/bf8e5ea3f649d2da47c7e9fa0625ebc6_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 20:20:15 +0000",
+                    "checkin_id": 160397198,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 844501,
+                        "user_name": "shadybrewer",
+                        "first_name": "josh",
+                        "last_name": "c",
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/5cd88c8e69ee82113d899fede34d138a_100x100.jpg",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [
+                        []
+                    ]
+                }, {
+                    "photo_id": 31978121,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ead5bc57e984c605b2c6adbf26910517_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ead5bc57e984c605b2c6adbf26910517_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ead5bc57e984c605b2c6adbf26910517_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ead5bc57e984c605b2c6adbf26910517_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 20:11:29 +0000",
+                    "checkin_id": 160394634,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 1565722,
+                        "user_name": "MarcAndreBlain",
+                        "first_name": "Marc-AndrÃ©",
+                        "last_name": "B",
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/ecc93309fe51413dbb562d151a855fc3_100x100.jpg",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [{
+                        "venue_id": 631158,
+                        "venue_name": "Jekyll & Hyde's",
+                        "primary_category": "Nightlife Spot",
+                        "parent_category_id": "4d4b7105d754a06376d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Bar",
+                                "category_id": "4bf58dd8d48988d116941735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "8 E 10th St",
+                            "venue_city": "Erie",
+                            "venue_state": "PA",
+                            "lat": 42.1256,
+                            "lng": -80.0824
+                        },
+                        "contact": {
+                            "twitter": "",
+                            "venue_url": ""
+                        },
+                        "private_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "51426909e4b0c9f1bda7c50a",
+                            "foursquare_url": "http:\/\/4sq.com\/ZRQC1G"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                        }
+                    }]
+                }, {
+                    "photo_id": 31977590,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/334588cb99d03e2c9adeeea824fedcbc_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/334588cb99d03e2c9adeeea824fedcbc_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/334588cb99d03e2c9adeeea824fedcbc_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/334588cb99d03e2c9adeeea824fedcbc_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 20:06:38 +0000",
+                    "checkin_id": 160393196,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 100581,
+                        "user_name": "Beerenalia",
+                        "first_name": "Beerenalia",
+                        "last_name": "",
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/7f031050b39ffc37d5145164a117ab34_thumb.png",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [
+                        []
+                    ]
+                }, {
+                    "photo_id": 31976908,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/9f5b405ee3042b9ff2cfd9b033876f5d_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/9f5b405ee3042b9ff2cfd9b033876f5d_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/9f5b405ee3042b9ff2cfd9b033876f5d_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/9f5b405ee3042b9ff2cfd9b033876f5d_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 20:00:19 +0000",
+                    "checkin_id": 160391421,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 1061196,
+                        "user_name": "kristen_proz",
+                        "first_name": "Kristen",
+                        "last_name": "P",
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/1e43a95e5915922d52fec818e905a7ab_100x100.jpg",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [{
+                        "venue_id": 1373244,
+                        "venue_name": "Presidential Arms",
+                        "primary_category": "Residence",
+                        "parent_category_id": "4e67e38e036454776db1fb3a",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Residential Building (Apartment\/Condo)",
+                                "category_id": "4d954b06a243a5684965b473",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "",
+                            "venue_city": "Allison Park",
+                            "venue_state": "PA",
+                            "lat": 40.5837,
+                            "lng": -79.9976
+                        },
+                        "contact": {
+                            "twitter": "",
+                            "venue_url": ""
+                        },
+                        "private_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "50bcafeae4b00cb56c976cfc",
+                            "foursquare_url": "http:\/\/4sq.com\/Ube82K"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/apartment_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/apartment_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/apartment_bg_88.png"
+                        }
+                    }]
+                }, {
+                    "photo_id": 31975908,
+                    "photo": {
+                        "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/77dce536ef60117b309f19ab343bd4ef_100x100.jpg",
+                        "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/77dce536ef60117b309f19ab343bd4ef_320x320.jpg",
+                        "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/77dce536ef60117b309f19ab343bd4ef_640x640.jpg",
+                        "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/77dce536ef60117b309f19ab343bd4ef_raw.jpg"
+                    },
+                    "created_at": "Fri, 06 Mar 2015 19:50:25 +0000",
+                    "checkin_id": 160388647,
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "user": {
+                        "uid": 1730848,
+                        "user_name": "leovanrooij",
+                        "first_name": "Leo",
+                        "last_name": "v",
+                        "user_avatar": "https:\/\/gravatar.com\/avatar\/ebc3680acc69ab91613d14902afdea4b?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                        "relationship": "none",
+                        "is_private": 0
+                    },
+                    "venue": [
+                        []
+                    ]
+                }]
+            },
+            "checkins": {
+                "count": 15,
+                "items": [{
+                    "checkin_id": 160415682,
+                    "created_at": "Fri, 06 Mar 2015 21:19:53 +0000",
+                    "checkin_comment": "Step 2.... Trying to get depth. Snooker for 2 hours",
+                    "rating_score": 3,
+                    "user": {
+                        "uid": 578181,
+                        "user_name": "Pase",
+                        "first_name": "El",
+                        "last_name": "P.",
+                        "location": "Bay boy",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "Blunts and brews. Urban Beer Drinkers co-op, Lover of malts, hops and its big cuzzin. Boxing aficionado and tree analyst",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/61ed2cc87b68c3dc56f31e2a8f72dedb_100x100.jpg",
+                        "is_private": 0,
+                        "contact": {
+                            "foursquare": 66379968
+                        }
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": [],
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 2,
+                        "count": 1,
+                        "auth_toast": null,
+                        "items": [{
+                            "uid": 36068,
+                            "user": {
+                                "uid": 36068,
+                                "user_name": "BIG_AL",
+                                "first_name": "AL",
+                                "last_name": "",
+                                "bio": "Oyster Bar Chef at Palace Station, 5 time Award winning Homebrewer, Thrash Metal Musician & a cool Cat to get faded with",
+                                "location": "Vegas by way of San Diego by way of Boston by way of Athens.",
+                                "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/37d3745e6b0e71a31403483a2453c778_thumb.jpg",
+                                "user_link": "https:\/\/untappd.com\/user\/BIG_AL",
+                                "account_type": "user",
+                                "brewery_details": []
+                            },
+                            "like_id": 89882393,
+                            "like_owner": false,
+                            "created_at": "Fri, 06 Mar 2015 21:23:00 +0000"
+                        }]
+                    },
+                    "media": {
+                        "count": 1,
+                        "items": [{
+                            "photo_id": 31985906,
+                            "photo": {
+                                "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ea7ff20ff482cb8b658ddbf5135831a7_100x100.jpg",
+                                "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ea7ff20ff482cb8b658ddbf5135831a7_320x320.jpg",
+                                "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ea7ff20ff482cb8b658ddbf5135831a7_640x640.jpg",
+                                "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/ea7ff20ff482cb8b658ddbf5135831a7_raw.jpg"
+                            }
+                        }]
+                    },
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)",
+                        "app_website": "http:\/\/untpd.it\/androidapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49179204,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 21:19:53 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160414900,
+                    "created_at": "Fri, 06 Mar 2015 21:17:36 +0000",
+                    "checkin_comment": "Really good wheat beer.",
+                    "rating_score": 3.5,
+                    "user": {
+                        "uid": 556630,
+                        "user_name": "Targetthug",
+                        "first_name": "Tristan",
+                        "last_name": "E.",
+                        "location": "San Jose",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/5c0f9ff250c55ccd679dcabbeefc76c4_thumb.jpg",
+                        "is_private": 0,
+                        "contact": {
+                            "foursquare": 14731878,
+                            "twitter": "Targetthug",
+                            "facebook": 100000398470864
+                        }
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": {
+                        "venue_id": 861649,
+                        "venue_name": "Home (Evangelist)",
+                        "primary_category": "Residence",
+                        "parent_category_id": "4e67e38e036454776db1fb3a",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Home (private)",
+                                "category_id": "4bf58dd8d48988d103941735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "",
+                            "venue_city": "San Jose",
+                            "venue_state": "CA",
+                            "venue_country": "United States",
+                            "lat": 37.2499,
+                            "lng": -121.851
+                        },
+                        "contact": {
+                            "twitter": "",
+                            "venue_url": ""
+                        },
+                        "public_venue": false,
+                        "foursquare": {
+                            "foursquare_id": "511ed3fce4b00ebaf021256d",
+                            "foursquare_url": "http:\/\/4sq.com\/11LvkWS"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/home_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/home_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/building\/home_bg_88.png"
+                        }
+                    },
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)",
+                        "app_website": "http:\/\/untpd.it\/androidapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49178874,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 21:17:37 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160414159,
+                    "created_at": "Fri, 06 Mar 2015 21:15:17 +0000",
+                    "checkin_comment": "",
+                    "rating_score": 5,
+                    "user": {
+                        "uid": 2073304,
+                        "user_name": "Tylerlaufer392",
+                        "first_name": "Tyler",
+                        "last_name": "L.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/gravatar.com\/avatar\/64350d7abadf17b901a1e63238c7ba5c?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                        "is_private": 0,
+                        "contact": []
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": [],
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 2,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49178586,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 21:15:17 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }, {
+                            "badge_id": 1,
+                            "user_badge_id": 49178587,
+                            "badge_name": "Newbie",
+                            "badge_description": "So, you're new around here? Congrats on your first brew! This one's for you.",
+                            "created_at": "Fri, 06 Mar 2015 21:15:17 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_newbie_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_newbie_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_newbie_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160413848,
+                    "created_at": "Fri, 06 Mar 2015 21:14:20 +0000",
+                    "checkin_comment": "",
+                    "rating_score": 0,
+                    "user": {
+                        "uid": 1797311,
+                        "user_name": "mam5107",
+                        "first_name": "Matt",
+                        "last_name": "M.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/gravatar.com\/avatar\/466de6f5f8661f3a6dc74b4e5276dfcc?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                        "is_private": 0,
+                        "contact": []
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": {
+                        "venue_id": 617365,
+                        "venue_name": "Cubs Park",
+                        "primary_category": "Arts & Entertainment",
+                        "parent_category_id": "4d4b7104d754a06370d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Baseball Stadium",
+                                "category_id": "4bf58dd8d48988d18c941735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "2330 W Rio Salado Pkwy",
+                            "venue_city": "Mesa",
+                            "venue_state": "AZ",
+                            "venue_country": "United States",
+                            "lat": 33.4303,
+                            "lng": -111.882
+                        },
+                        "contact": {
+                            "twitter": "@cubs",
+                            "venue_url": "http:\/\/mlb.mlb.com\/chc\/mesa"
+                        },
+                        "public_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "50ed70b2e4b01ea2a2207814",
+                            "foursquare_url": "http:\/\/4sq.com\/ZqxBju"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/stadium_baseball_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/stadium_baseball_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/arts_entertainment\/stadium_baseball_bg_88.png"
+                        }
+                    },
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49178457,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 21:14:20 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160412797,
+                    "created_at": "Fri, 06 Mar 2015 21:11:04 +0000",
+                    "checkin_comment": "My stomach is going to hate me. I did it for the badge.",
+                    "rating_score": 3,
+                    "user": {
+                        "uid": 387588,
+                        "user_name": "Kerilynn683",
+                        "first_name": "Keri",
+                        "last_name": "W.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "My husband Tom and I enjoy great beers and meeting new people with the same love for beer!  Cheers!",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/64ed7faf3e0112f829c31310f15e5b30_100x100.jpg",
+                        "is_private": 0,
+                        "contact": {
+                            "facebook": 194401440
+                        }
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": {
+                        "venue_id": 15382,
+                        "venue_name": "Emil's Tavern on Center",
+                        "primary_category": "Food",
+                        "parent_category_id": "4d4b7105d754a06374d81259",
+                        "categories": {
+                            "count": 3,
+                            "items": [{
+                                "category_name": "American Restaurant",
+                                "category_id": "4bf58dd8d48988d14e941735",
+                                "is_primary": true
+                            }, {
+                                "category_name": "Pizza Place",
+                                "category_id": "4bf58dd8d48988d1ca941735",
+                                "is_primary": false
+                            }, {
+                                "category_name": "Restaurant",
+                                "category_id": "4bf58dd8d48988d1c4941735",
+                                "is_primary": false
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "161 Center St",
+                            "venue_city": "Grayslake",
+                            "venue_state": "IL",
+                            "venue_country": "United States",
+                            "lat": 42.3443,
+                            "lng": -88.0408
+                        },
+                        "contact": {
+                            "twitter": "",
+                            "venue_url": "http:\/\/www.emilsonline.com"
+                        },
+                        "public_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4b75e386f964a520532c2ee3",
+                            "foursquare_url": "http:\/\/4sq.com\/axrsaI"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/default_bg_88.png"
+                        }
+                    },
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 1,
+                        "items": [{
+                            "photo_id": 31984900,
+                            "photo": {
+                                "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/c3a0c2c2bbd3bbf0b181c563bb60438e_100x100.jpg",
+                                "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/c3a0c2c2bbd3bbf0b181c563bb60438e_320x320.jpg",
+                                "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/c3a0c2c2bbd3bbf0b181c563bb60438e_640x640.jpg",
+                                "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/c3a0c2c2bbd3bbf0b181c563bb60438e_raw.jpg"
+                            }
+                        }]
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49178003,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 21:11:05 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160412329,
+                    "created_at": "Fri, 06 Mar 2015 21:09:31 +0000",
+                    "checkin_comment": "",
+                    "rating_score": 4,
+                    "user": {
+                        "uid": 15686,
+                        "user_name": "upofan",
+                        "first_name": "Joe",
+                        "last_name": "",
+                        "location": "MILWAUKEE",
+                        "url": "http:\/\/www.joemartinezsem.com",
+                        "is_supporter": 0,
+                        "bio": "\"Beer makes you feel the way you ought to feel without beer.\"\n- Henry Lawson",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/f1834f69609cc24063199c1e1195a805_thumb.JPG",
+                        "is_private": 0,
+                        "contact": {
+                            "twitter": "GoldenEagle06",
+                            "facebook": 20302513,
+                            "foursquare": 5039110
+                        }
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": {
+                        "venue_id": 40167,
+                        "venue_name": "Champps Americana",
+                        "primary_category": "Nightlife Spot",
+                        "parent_category_id": "4d4b7105d754a06376d81259",
+                        "categories": {
+                            "count": 3,
+                            "items": [{
+                                "category_name": "Sports Bar",
+                                "category_id": "4bf58dd8d48988d11d941735",
+                                "is_primary": true
+                            }, {
+                                "category_name": "Burger Joint",
+                                "category_id": "4bf58dd8d48988d16c941735",
+                                "is_primary": false
+                            }, {
+                                "category_name": "American Restaurant",
+                                "category_id": "4bf58dd8d48988d14e941735",
+                                "is_primary": false
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "1240 S Moorland Rd",
+                            "venue_city": "Brookfield",
+                            "venue_state": "WI",
+                            "venue_country": "United States",
+                            "lat": 43.0191,
+                            "lng": -88.1061
+                        },
+                        "contact": {
+                            "twitter": "@champps",
+                            "venue_url": "http:\/\/t.co\/9OBCSXZCsI"
+                        },
+                        "public_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4aef2990f964a5202ed621e3",
+                            "foursquare_url": "http:\/\/4sq.com\/8091ms"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/sportsbar_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/sportsbar_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/sportsbar_bg_88.png"
+                        }
+                    },
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49177829,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 21:09:31 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160411694,
+                    "created_at": "Fri, 06 Mar 2015 21:07:33 +0000",
+                    "checkin_comment": "",
+                    "rating_score": 4,
+                    "user": {
+                        "uid": 1157266,
+                        "user_name": "Moellerja",
+                        "first_name": "Joe",
+                        "last_name": "M.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/gravatar.com\/avatar\/9a1b4ef92f697a1ce930debe66f65a8d?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                        "is_private": 0,
+                        "contact": []
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": [],
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49177540,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 21:07:33 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160411568,
+                    "created_at": "Fri, 06 Mar 2015 21:07:08 +0000",
+                    "checkin_comment": "",
+                    "rating_score": 4,
+                    "user": {
+                        "uid": 715394,
+                        "user_name": "chrisj31",
+                        "first_name": "Chris",
+                        "last_name": "J.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/ef8c2df757496799b3262f7e56024646_thumb.jpg",
+                        "is_private": 0,
+                        "contact": {
+                            "facebook": 61415625
+                        }
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": [],
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)",
+                        "app_website": "http:\/\/untpd.it\/androidapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49177488,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 21:07:09 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160407982,
+                    "created_at": "Fri, 06 Mar 2015 20:55:44 +0000",
+                    "checkin_comment": "",
+                    "rating_score": 5,
+                    "user": {
+                        "uid": 871198,
+                        "user_name": "Cyndilou",
+                        "first_name": "Cynthia",
+                        "last_name": "K.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/gravatar.com\/avatar\/925b09a060050bd609c10aebf8f19861?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                        "is_private": 0,
+                        "contact": []
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": [],
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49176043,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 20:55:45 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160407926,
+                    "created_at": "Fri, 06 Mar 2015 20:55:34 +0000",
+                    "checkin_comment": "",
+                    "rating_score": 1,
+                    "user": {
+                        "uid": 2039877,
+                        "user_name": "DMB22best",
+                        "first_name": "Jennifer",
+                        "last_name": "C.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/gravatar.com\/avatar\/c00601ab4b2bc2e07fc5b0b6541d7a3f?size=100&d=https%3A%2F%2Fd1c8v1qci5en44.cloudfront.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                        "is_private": 0,
+                        "contact": []
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": [],
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 2,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49176014,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 20:55:34 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }, {
+                            "badge_id": 541,
+                            "user_badge_id": 49176017,
+                            "badge_name": "Land of the Free (Level 5)",
+                            "badge_description": "Youâ€™ve pledged allegiance, and now itâ€™s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. Thatâ€™s 25 different beers from a brewery in the United States. Try 5 more for Level 6.",
+                            "created_at": "Fri, 06 Mar 2015 20:55:34 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_america_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_america_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_america_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160406598,
+                    "created_at": "Fri, 06 Mar 2015 20:51:23 +0000",
+                    "checkin_comment": "I like Goose Island, but I've had better.",
+                    "rating_score": 2,
+                    "user": {
+                        "uid": 843774,
+                        "user_name": "Rhinehart",
+                        "first_name": "Stephen",
+                        "last_name": "P.",
+                        "location": "Cardiff",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/99c08c6389981739238497e6f30473c6_100x100.jpg",
+                        "is_private": 0,
+                        "contact": {
+                            "twitter": "zizka1965"
+                        }
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": {
+                        "venue_id": 1144660,
+                        "venue_name": "Cathays",
+                        "primary_category": "Outdoors & Recreation",
+                        "parent_category_id": "4d4b7105d754a06377d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Neighborhood",
+                                "category_id": "4f2a25ac4b909258e854f55f",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "",
+                            "venue_city": "Cardiff",
+                            "venue_state": "Cardiff",
+                            "venue_country": "United Kingdom",
+                            "lat": 51.4922,
+                            "lng": -3.1816
+                        },
+                        "contact": {
+                            "twitter": "",
+                            "venue_url": ""
+                        },
+                        "public_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4d30995e236aa143686256eb",
+                            "foursquare_url": "http:\/\/4sq.com\/fPaQbF"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/neighborhood_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/neighborhood_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/neighborhood_bg_88.png"
+                        }
+                    },
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)",
+                        "app_website": "http:\/\/untpd.it\/androidapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49175480,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 20:51:24 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160405472,
+                    "created_at": "Fri, 06 Mar 2015 20:47:26 +0000",
+                    "checkin_comment": "",
+                    "rating_score": 3,
+                    "user": {
+                        "uid": 749336,
+                        "user_name": "IceCold1",
+                        "first_name": "Michael",
+                        "last_name": "L.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/dcd5133600a21b788a56264aa7591fd0_thumb.jpg",
+                        "is_private": 0,
+                        "contact": []
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": {
+                        "venue_id": 302850,
+                        "venue_name": "Pools at Monte Carlo Resort & Casino",
+                        "primary_category": "Travel & Transport",
+                        "parent_category_id": "4d4b7105d754a06379d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Pool",
+                                "category_id": "4bf58dd8d48988d132951735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "3770 Las Vegas Blvd S",
+                            "venue_city": "Las Vegas",
+                            "venue_state": "NV",
+                            "venue_country": "United States",
+                            "lat": 36.1054,
+                            "lng": -115.177
+                        },
+                        "contact": {
+                            "twitter": "@montecarlovegas",
+                            "venue_url": "http:\/\/montecarlo.com"
+                        },
+                        "public_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4bb78f7d98c7ef3ba9f72f02",
+                            "foursquare_url": "http:\/\/4sq.com\/bI1Uc9"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/pool_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/pool_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/pool_bg_88.png"
+                        }
+                    },
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 0,
+                        "items": []
+                    },
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)",
+                        "app_website": "http:\/\/untpd.it\/androidapp"
+                    },
+                    "badges": {
+                        "count": 0,
+                        "items": []
+                    }
+                }, {
+                    "checkin_id": 160403235,
+                    "created_at": "Fri, 06 Mar 2015 20:40:06 +0000",
+                    "checkin_comment": "Sup",
+                    "rating_score": 0,
+                    "user": {
+                        "uid": 1218584,
+                        "user_name": "BrewIvyCarter",
+                        "first_name": "Caitlin",
+                        "last_name": "D.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/e5b58932cf7c2ff6a0f22f4441b7a3a4_100x100.jpg",
+                        "is_private": 0,
+                        "contact": {
+                            "twitter": "CAiTDiOLiNRiO",
+                            "facebook": 1412370009
+                        }
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": {
+                        "venue_id": 5389,
+                        "venue_name": "Bob's Bar",
+                        "primary_category": "Nightlife Spot",
+                        "parent_category_id": "4d4b7105d754a06376d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Bar",
+                                "category_id": "4bf58dd8d48988d116941735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "4961 N High St",
+                            "venue_city": "Columbus",
+                            "venue_state": "OH",
+                            "venue_country": "United States",
+                            "lat": 40.0635,
+                            "lng": -83.0195
+                        },
+                        "contact": {
+                            "twitter": "@bobsbarcbus",
+                            "venue_url": "http:\/\/bobsbar.com"
+                        },
+                        "public_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4b130b08f964a520299323e3",
+                            "foursquare_url": "http:\/\/4sq.com\/6wXtOh"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                        }
+                    },
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 0,
+                        "count": 0,
+                        "auth_toast": null,
+                        "items": []
+                    },
+                    "media": {
+                        "count": 1,
+                        "items": [{
+                            "photo_id": 31981333,
+                            "photo": {
+                                "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/55f9b57de920a98cfc0ee29cb138e9d8_100x100.jpg",
+                                "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/55f9b57de920a98cfc0ee29cb138e9d8_320x320.jpg",
+                                "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/55f9b57de920a98cfc0ee29cb138e9d8_640x640.jpg",
+                                "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/55f9b57de920a98cfc0ee29cb138e9d8_raw.jpg"
+                            }
+                        }]
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 1,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49174079,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 20:40:06 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160402840,
+                    "created_at": "Fri, 06 Mar 2015 20:38:49 +0000",
+                    "checkin_comment": "Not really any taste atal",
+                    "rating_score": 3,
+                    "user": {
+                        "uid": 1554768,
+                        "user_name": "Squibz1985",
+                        "first_name": "Dan",
+                        "last_name": "W.",
+                        "location": "",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/63d0e009c8e87447f24d472fcb3498bc_100x100.jpg",
+                        "is_private": 0,
+                        "contact": {
+                            "facebook": 1156441074,
+                            "twitter": "squibz85"
+                        }
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": {
+                        "venue_id": 235615,
+                        "venue_name": "Crown & Anchor",
+                        "primary_category": "Nightlife Spot",
+                        "parent_category_id": "4d4b7105d754a06376d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Pub",
+                                "category_id": "4bf58dd8d48988d11b941735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "246 Brixton Rd",
+                            "venue_city": "Lambeth",
+                            "venue_state": "Greater London",
+                            "venue_country": "United Kingdom",
+                            "lat": 51.4714,
+                            "lng": -0.112782
+                        },
+                        "contact": {
+                            "twitter": "@crownanchorsw9",
+                            "venue_url": "http:\/\/www.crownandanchorbrixton.co.uk"
+                        },
+                        "public_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4cf93e594464b60c5c0f65f8",
+                            "foursquare_url": "http:\/\/4sq.com\/hBjCxH"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                        }
+                    },
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 1,
+                        "count": 1,
+                        "auth_toast": null,
+                        "items": [{
+                            "uid": 726971,
+                            "user": {
+                                "uid": 726971,
+                                "user_name": "DrMark",
+                                "first_name": "DrMark",
+                                "last_name": "",
+                                "bio": "If there are no real ales it doesn't deserve to be called a pub!",
+                                "location": "Bromley",
+                                "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/f1a66b173f0d74043f14d2e03485f1e6_thumb.jpg",
+                                "user_link": "https:\/\/untappd.com\/user\/DrMark",
+                                "account_type": "user",
+                                "brewery_details": []
+                            },
+                            "like_id": 89874419,
+                            "like_owner": false,
+                            "created_at": "Fri, 06 Mar 2015 20:49:31 +0000"
+                        }]
+                    },
+                    "media": {
+                        "count": 1,
+                        "items": [{
+                            "photo_id": 31981194,
+                            "photo": {
+                                "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/b842dcb86652ab68f7a9642131827448_100x100.jpg",
+                                "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/b842dcb86652ab68f7a9642131827448_320x320.jpg",
+                                "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/b842dcb86652ab68f7a9642131827448_640x640.jpg",
+                                "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/b842dcb86652ab68f7a9642131827448_raw.jpg"
+                            }
+                        }]
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 2,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49173916,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 20:38:49 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }, {
+                            "badge_id": 13,
+                            "user_badge_id": 49173917,
+                            "badge_name": "Beer Party",
+                            "badge_description": "Drinking with friends is fun. Right? You've checked in with at least 4 other people within 2 hours.",
+                            "created_at": "Fri, 06 Mar 2015 20:38:49 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_beerParty_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_beerParty_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_beerParty_lg.jpg"
+                            }
+                        }]
+                    }
+                }, {
+                    "checkin_id": 160402053,
+                    "created_at": "Fri, 06 Mar 2015 20:36:23 +0000",
+                    "checkin_comment": "Not a massive wheet fan but needed a badge :o)",
+                    "rating_score": 2.5,
+                    "user": {
+                        "uid": 1554735,
+                        "user_name": "dazwelch",
+                        "first_name": "Darren",
+                        "last_name": "W.",
+                        "location": "London",
+                        "url": "",
+                        "is_supporter": 0,
+                        "bio": "",
+                        "relationship": null,
+                        "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/b6bed4f497b60b0a25fc97065f03ca4d_100x100.jpg",
+                        "is_private": 0,
+                        "contact": {
+                            "facebook": 611212550,
+                            "twitter": "Welch4D"
+                        }
+                    },
+                    "beer": {
+                        "bid": 5925,
+                        "beer_name": "312 Urban Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-5925_83e03_sm.jpeg",
+                        "beer_abv": 4.2,
+                        "beer_ibu": 18,
+                        "beer_slug": "goose-island-beer-co-312-urban-wheat-ale",
+                        "beer_description": "Inspired by the city of Chicago and densely populated with flavor, 312â€™s spicy aroma of Cascade hops is followed by a crisp, fruity ale flavor delivered in a smooth, creamy body that's immensely refreshing.",
+                        "is_in_production": 1,
+                        "beer_style_id": 5,
+                        "beer_style": "American Pale Wheat Ale",
+                        "auth_rating": 0,
+                        "wish_list": false,
+                        "beer_active": 1
+                    },
+                    "brewery": {
+                        "brewery_id": 2898,
+                        "brewery_name": "Goose Island Beer Co.",
+                        "brewery_slug": "goose-island-beer-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2898_79a14.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "GooseIsland",
+                            "facebook": "http:\/\/www.facebook.com\/gooseislandbeer",
+                            "url": "http:\/\/www.gooseisland.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Chicago",
+                            "brewery_state": "IL",
+                            "lat": 41.8871,
+                            "lng": -87.6721
+                        },
+                        "brewery_active": 1
+                    },
+                    "venue": {
+                        "venue_id": 235615,
+                        "venue_name": "Crown & Anchor",
+                        "primary_category": "Nightlife Spot",
+                        "parent_category_id": "4d4b7105d754a06376d81259",
+                        "categories": {
+                            "count": 1,
+                            "items": [{
+                                "category_name": "Pub",
+                                "category_id": "4bf58dd8d48988d11b941735",
+                                "is_primary": true
+                            }]
+                        },
+                        "location": {
+                            "venue_address": "246 Brixton Rd",
+                            "venue_city": "Lambeth",
+                            "venue_state": "Greater London",
+                            "venue_country": "United Kingdom",
+                            "lat": 51.4714,
+                            "lng": -0.112782
+                        },
+                        "contact": {
+                            "twitter": "@crownanchorsw9",
+                            "venue_url": "http:\/\/www.crownandanchorbrixton.co.uk"
+                        },
+                        "public_venue": true,
+                        "foursquare": {
+                            "foursquare_id": "4cf93e594464b60c5c0f65f8",
+                            "foursquare_url": "http:\/\/4sq.com\/hBjCxH"
+                        },
+                        "venue_icon": {
+                            "sm": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_64.png",
+                            "md": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png",
+                            "lg": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/nightlife\/pub_bg_88.png"
+                        }
+                    },
+                    "comments": {
+                        "total_count": 0,
+                        "count": 0,
+                        "items": []
+                    },
+                    "toasts": {
+                        "total_count": 1,
+                        "count": 1,
+                        "auth_toast": null,
+                        "items": [{
+                            "uid": 726971,
+                            "user": {
+                                "uid": 726971,
+                                "user_name": "DrMark",
+                                "first_name": "DrMark",
+                                "last_name": "",
+                                "bio": "If there are no real ales it doesn't deserve to be called a pub!",
+                                "location": "Bromley",
+                                "user_avatar": "https:\/\/d1c8v1qci5en44.cloudfront.net\/profile\/f1a66b173f0d74043f14d2e03485f1e6_thumb.jpg",
+                                "user_link": "https:\/\/untappd.com\/user\/DrMark",
+                                "account_type": "user",
+                                "brewery_details": []
+                            },
+                            "like_id": 89874580,
+                            "like_owner": false,
+                            "created_at": "Fri, 06 Mar 2015 20:50:15 +0000"
+                        }]
+                    },
+                    "media": {
+                        "count": 1,
+                        "items": [{
+                            "photo_id": 31980904,
+                            "photo": {
+                                "photo_img_sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/f9281efddc8d4fe07893979693d0b5c1_100x100.jpg",
+                                "photo_img_md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/f9281efddc8d4fe07893979693d0b5c1_320x320.jpg",
+                                "photo_img_lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/f9281efddc8d4fe07893979693d0b5c1_640x640.jpg",
+                                "photo_img_og": "https:\/\/d1c8v1qci5en44.cloudfront.net\/photo\/2015_03_06\/f9281efddc8d4fe07893979693d0b5c1_raw.jpg"
+                            }
+                        }]
+                    },
+                    "source": {
+                        "app_name": "Untappd for iPhone - (V2)",
+                        "app_website": "http:\/\/untpd.it\/iphoneapp"
+                    },
+                    "badges": {
+                        "count": 2,
+                        "items": [{
+                            "badge_id": 3518,
+                            "user_badge_id": 49173633,
+                            "badge_name": "Goose Island 312 Day",
+                            "badge_description": "#312Day isnâ€™t just for Chicagoans, itâ€™s a day for everybody to get out and celebrate what makes their city unique. So go on, get to your favorite spot and raise a glass to your city!",
+                            "created_at": "Fri, 06 Mar 2015 20:36:23 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_312Day2015_lg.jpg"
+                            }
+                        }, {
+                            "badge_id": 2159,
+                            "user_badge_id": 49173636,
+                            "badge_name": "Pale as the Moon  (Level 13)",
+                            "badge_description": "Ahh, the trusty pale ale; crisp, refreshing, and always a good choice in a bind. That's 65 different Pale Ales. Try 5 more for Level 14.",
+                            "created_at": "Fri, 06 Mar 2015 20:36:23 +0000",
+                            "badge_image": {
+                                "sm": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_PaleMoon_sm.jpg",
+                                "md": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_PaleMoon_md.jpg",
+                                "lg": "https:\/\/d1c8v1qci5en44.cloudfront.net\/badges\/bdg_PaleMoon_lg.jpg"
+                            }
+                        }]
+                    }
+                }]
+            },
+            "similar": {
+                "count": 5,
+                "items": [{
+                    "rating_score": 4.06425,
+                    "beer": {
+                        "bid": 9954,
+                        "beer_name": "Gumballhead",
+                        "beer_abv": 5.6,
+                        "beer_ibu": 35,
+                        "beer_style": "American Pale Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-threefloydsGumballhead.jpg",
+                        "auth_rating": 0,
+                        "wish_list": false
+                    },
+                    "brewery": {
+                        "brewery_id": 2470,
+                        "brewery_name": "3 Floyds Brewing Company",
+                        "brewery_slug": "3-floyds-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-2470_90eff.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "3floyds",
+                            "facebook": "https:\/\/www.facebook.com\/pages\/3floyds",
+                            "instagram": "3floydsbrewing",
+                            "url": "http:\/\/www.3floyds.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Munster",
+                            "brewery_state": "IN",
+                            "lat": 41.5355,
+                            "lng": -87.5167
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": {
+                        "items": [],
+                        "count": 0
+                    }
+                }, {
+                    "rating_score": 3.41684,
+                    "beer": {
+                        "bid": 444121,
+                        "beer_name": "Samuel Adams Cold Snap",
+                        "beer_abv": 5.3,
+                        "beer_ibu": 10,
+                        "beer_style": "Witbier",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-444121_087f6_sm.jpeg",
+                        "auth_rating": 0,
+                        "wish_list": false
+                    },
+                    "brewery": {
+                        "brewery_id": 157,
+                        "brewery_name": "Boston Beer Company (Samuel Adams)",
+                        "brewery_slug": "boston-beer-company-samuel-adams",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-SamuelAdams.jpg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "SamuelAdamsBeer",
+                            "facebook": "http:\/\/www.facebook.com\/pages\/Samuel-Adams-for-the-love-of-beer\/117341921610",
+                            "instagram": "samueladamsbeer",
+                            "url": "http:\/\/www.samueladams.com"
+                        },
+                        "location": {
+                            "brewery_city": "Boston",
+                            "brewery_state": "MA",
+                            "lat": 42.3144,
+                            "lng": -71.1034
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": {
+                        "items": [],
+                        "count": 0
+                    }
+                }, {
+                    "rating_score": 3.74955,
+                    "beer": {
+                        "bid": 4588,
+                        "beer_name": "Black Rye",
+                        "beer_abv": 7.5,
+                        "beer_ibu": 78,
+                        "beer_style": "Rye Beer",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-4588_754da_sm.jpeg",
+                        "auth_rating": 0,
+                        "wish_list": false
+                    },
+                    "brewery": {
+                        "brewery_id": 549,
+                        "brewery_name": "Founders Brewing Co.",
+                        "brewery_slug": "founders-brewing-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-foundersbrewingcompany_549.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "foundersbrewing",
+                            "facebook": "http:\/\/www.facebook.com\/foundersbrewingofficial",
+                            "instagram": "foundersbrewing",
+                            "url": "http:\/\/www.foundersbrewing.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Grand Rapids",
+                            "brewery_state": "MI",
+                            "lat": 42.9585,
+                            "lng": -85.6735
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": {
+                        "items": [],
+                        "count": 0
+                    }
+                }, {
+                    "rating_score": 3.53813,
+                    "beer": {
+                        "bid": 10501,
+                        "beer_name": "Unfiltered Wheat Beer",
+                        "beer_abv": 4.4,
+                        "beer_ibu": 14,
+                        "beer_style": "American Pale Wheat Ale",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-_10501_sm_223bb99cc9949e694ada7d88309095.jpeg",
+                        "auth_rating": 0,
+                        "wish_list": false
+                    },
+                    "brewery": {
+                        "brewery_id": 1514,
+                        "brewery_name": "Boulevard Brewing Co.",
+                        "brewery_slug": "boulevard-brewing-co",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-boulevard.jpg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "Boulevard_Beer",
+                            "facebook": "http:\/\/www.facebook.com\/Boulevard",
+                            "instagram": "BoulevardBeer",
+                            "url": "http:\/\/www.boulevard.com\/"
+                        },
+                        "location": {
+                            "brewery_city": "Kansas City",
+                            "brewery_state": "MO",
+                            "lat": 39.0821,
+                            "lng": -94.5965
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": {
+                        "items": [],
+                        "count": 0
+                    }
+                }, {
+                    "rating_score": 3.11761,
+                    "beer": {
+                        "bid": 210218,
+                        "beer_name": "Redd's Apple Ale",
+                        "beer_abv": 5,
+                        "beer_ibu": 0,
+                        "beer_style": "Fruit Beer",
+                        "beer_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/beer_logos\/beer-210218_d71b7_sm.jpeg",
+                        "auth_rating": 0,
+                        "wish_list": false
+                    },
+                    "brewery": {
+                        "brewery_id": 36153,
+                        "brewery_name": "Redd's Brewing Company",
+                        "brewery_slug": "redds-brewing-company",
+                        "brewery_label": "https:\/\/d1c8v1qci5en44.cloudfront.net\/site\/brewery_logos\/brewery-ReddsBrewingCompany_36153_7d340.jpeg",
+                        "country_name": "United States",
+                        "contact": {
+                            "twitter": "ReddsAppleAle",
+                            "facebook": "https:\/\/www.facebook.com\/reddsappleale",
+                            "instagram": "ReddsAppleAle",
+                            "url": "http:\/\/www.reddsapple.com"
+                        },
+                        "location": {
+                            "brewery_city": "Milwaukee",
+                            "brewery_state": "WI",
+                            "lat": 43.0389,
+                            "lng": -87.9065
+                        },
+                        "brewery_active": 1
+                    },
+                    "friends": {
+                        "items": [],
+                        "count": 0
+                    }
+                }]
+            },
+            "friends": {
+                "items": [],
+                "count": 0
+            },
+            "vintages": {
+                "count": 0,
+                "items": []
+            }
+        }
+    }
+}
