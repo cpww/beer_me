@@ -49,8 +49,6 @@ var utdApi = {
                   }
                 });
 
-                // returns object of lat/lng closest to
-                // user location
                 closestVenueCoords = search.searchLocation(userCoords, coordsReceived);
                 return bidData.response.beer.checkins.items[closestVenueCoords.index];;
 
